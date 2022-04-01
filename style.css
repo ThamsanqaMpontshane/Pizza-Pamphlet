@@ -1,5 +1,88 @@
-.small img { width: 4em; }
+.small img { 
+    width: 4em; 
+    padding-bottom: 49px;
 
-.medium img { width: 5em; }
+}
 
-.large img { width: 7em; }
+.medium img { 
+    width: 5em;
+    padding-bottom: 30px;
+
+ }
+
+.large img { 
+    width: 7em; 
+
+}
+.specials {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 30px;
+}
+.specials  > img{
+    align-self: center;
+    justify-content: center;
+}
+.medium {
+  display:flex;
+  flex-direction: column;
+  width: 160px;
+  height: 415px
+}
+
+.small {
+    width: 160px;
+    height: 415px;
+}
+
+.large {
+  width: 160px;
+  height: 415px
+}
+.specials > div {
+    border: 4px solid black;
+    background-color: whitesmoke;
+}
+.container {
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 4px solid black;
+    background-color: #FFA630;
+
+}
+.btn1{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.btn2{
+  margin: 20px;
+}
+.btn3{
+  margin-top: 56px;
+  margin-left: 20px;   
+}
+
+.header {
+    margin-left: 230px;
+    margin-bottom: 50px;
+}
+.footer {
+    text-align: center;
+
+}
+.icons > img {
+    width: 20px;
+
+}
+icons{
+    background-color: red;
+    display: flex;
+    gap: 20px;
+}
+/* * {
+    background-image: url(pattern.jpg);
+} */
+body {
+    background-image: url(pattern.jpg);
+}
